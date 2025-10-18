@@ -1,0 +1,676 @@
+[debug] [2025-10-03T11:17:57.964Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:17:57.966Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:17:57.967Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:17:57.968Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:18:55.931Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:18:55.932Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:18:55.933Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:18:55.933Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:18:55.934Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-10-03T11:18:56.637Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-10-03T11:18:56.637Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2025-10-03T11:19:20.784Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:19:20.784Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:19:20.785Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:19:20.785Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:19:20.785Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudresourcemanager.googleapis.com [none]
+[debug] [2025-10-03T11:19:20.785Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudresourcemanager.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-03T11:19:22.655Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudresourcemanager.googleapis.com 200
+[debug] [2025-10-03T11:19:22.656Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudresourcemanager.googleapis.com [omitted]
+[debug] [2025-10-03T11:19:22.665Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:19:22.665Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:19:22.665Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/classroom-connect-aa6bx [none]
+[debug] [2025-10-03T11:19:24.111Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/classroom-connect-aa6bx 200
+[debug] [2025-10-03T11:19:24.112Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/classroom-connect-aa6bx {"projectNumber":"822230741774","projectId":"classroom-connect-aa6bx","lifecycleState":"ACTIVE","name":"Classroom Connect","labels":{"monospace-workspace-id":"studio-9392397126","firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-07-25T17:40:31.293687Z"}
+[info] Now using project classroom-connect-aa6bx
+[debug] [2025-10-03T11:19:27.587Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:19:27.587Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:19:27.588Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:19:27.588Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:19:27.588Z] >>> [apiv2][query] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:listCollectionIds [none]
+[debug] [2025-10-03T11:19:27.588Z] >>> [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:listCollectionIds {"pageSize":2147483647}
+[debug] [2025-10-03T11:19:29.117Z] <<< [apiv2][status] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:listCollectionIds 200
+[debug] [2025-10-03T11:19:29.117Z] <<< [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:listCollectionIds {"collectionIds":["assignments","courses","passwordResetRequests","submissions","users"]}
+[debug] [2025-10-03T11:20:02.216Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:20:02.217Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:20:02.217Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:02.217Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:02.218Z] >>> [apiv2][query] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [none]
+[debug] [2025-10-03T11:20:02.218Z] >>> [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery {"structuredQuery":{"from":[{"collectionId":"users","allDescendants":false}],"where":{"compositeFilter":{"op":"AND","filters":[{"fieldFilter":{"field":{"fieldPath":"name"},"op":"EQUAL","value":{"stringValue":"Rabia Wawar"}}}]}},"limit":10},"explainOptions":{"analyze":true},"newTransaction":{"readOnly":{"readTime":"2025-10-03T11:20:02.217Z"}}}
+[debug] [2025-10-03T11:20:03.742Z] <<< [apiv2][status] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery 200
+[debug] [2025-10-03T11:20:03.742Z] <<< [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [{"transaction":"EfIAZ3Cw22ifIlkAEBEVEisP76/jopSCzZEXEMbzh5o0wv/T9NZUeBre3rIvFYe8PWNJIMFPpv69y2g150zUwdtsDRa4BPSTrPfGo/jLVovidEWLkC9+GFge0Brg13p4q/D6ng=="},{"readTime":"2025-10-03T11:20:02.217Z","explainMetrics":{"planSummary":{"indexesUsed":[{"properties":"(name ASC, __name__ ASC)","query_scope":"Collection"}]},"executionStats":{"executionDuration":"0.015388s","readOperations":"1","debugStats":{"index_entries_scanned":"0","documents_scanned":"0","billing_details":{"index_entries_billable":"0","documents_billable":"0","min_query_cost":"1","small_ops":"0"}}}}}]
+[debug] [2025-10-03T11:20:08.968Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:20:08.968Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:20:08.969Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:08.969Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:08.969Z] >>> [apiv2][query] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [none]
+[debug] [2025-10-03T11:20:08.969Z] >>> [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery {"structuredQuery":{"from":[{"collectionId":"users","allDescendants":false}],"where":{"compositeFilter":{"op":"AND","filters":[{"fieldFilter":{"field":{"fieldPath":"name"},"op":"EQUAL","value":{"stringValue":"Rabia"}}}]}},"limit":10},"explainOptions":{"analyze":true},"newTransaction":{"readOnly":{"readTime":"2025-10-03T11:20:08.969Z"}}}
+[debug] [2025-10-03T11:20:10.469Z] <<< [apiv2][status] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery 200
+[debug] [2025-10-03T11:20:10.469Z] <<< [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [{"transaction":"EaPUT5CD2o69IlkAEBEVEnsiw1sk2UuALmvFNqp+yz2b0imeL+WEPDEOVkRu4+NP37R0+1XOMQUTgvbc2V+lE1PdRKQDIhaMyX72LxR7eE++awWVYjnbMJrUhuj4O+Kfx0VK1w=="},{"readTime":"2025-10-03T11:20:08.969Z","explainMetrics":{"planSummary":{"indexesUsed":[{"properties":"(name ASC, __name__ ASC)","query_scope":"Collection"}]},"executionStats":{"executionDuration":"0.013141s","readOperations":"1","debugStats":{"index_entries_scanned":"0","billing_details":{"index_entries_billable":"0","documents_billable":"0","min_query_cost":"1","small_ops":"0"},"documents_scanned":"0"}}}}]
+[debug] [2025-10-03T11:20:13.802Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:20:13.802Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:20:13.803Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:13.803Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:13.803Z] >>> [apiv2][query] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [none]
+[debug] [2025-10-03T11:20:13.803Z] >>> [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery {"structuredQuery":{"from":[{"collectionId":"users","allDescendants":false}],"where":{"compositeFilter":{"op":"AND","filters":[{"fieldFilter":{"field":{"fieldPath":"name"},"op":"EQUAL","value":{"stringValue":"Wawar"}}}]}},"limit":10},"explainOptions":{"analyze":true},"newTransaction":{"readOnly":{"readTime":"2025-10-03T11:20:13.803Z"}}}
+[debug] [2025-10-03T11:20:14.115Z] <<< [apiv2][status] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery 200
+[debug] [2025-10-03T11:20:14.115Z] <<< [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [{"transaction":"Ee3E+UktKvDMIlkAEBEVEpv2mAbGKNIOz7pdkNie5O1dhTY6bVnNez4NA0PI1grbAEq4G+8uuoCL/9T3V9EoAy9CBazViFgCrYfe2W75dROt/tyEJ8gWa+Btznax2Cl/4xCKkg=="},{"readTime":"2025-10-03T11:20:13.803Z","explainMetrics":{"planSummary":{"indexesUsed":[{"properties":"(name ASC, __name__ ASC)","query_scope":"Collection"}]},"executionStats":{"executionDuration":"0.014785s","readOperations":"1","debugStats":{"billing_details":{"index_entries_billable":"0","documents_billable":"0","min_query_cost":"1","small_ops":"0"},"index_entries_scanned":"0","documents_scanned":"0"}}}}]
+[debug] [2025-10-03T11:20:18.082Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:20:18.082Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:20:18.083Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:18.083Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:18.083Z] >>> [apiv2][query] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [none]
+[debug] [2025-10-03T11:20:18.083Z] >>> [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery {"structuredQuery":{"from":[{"collectionId":"users","allDescendants":false}],"where":{"compositeFilter":{"op":"AND","filters":[]}},"limit":1},"explainOptions":{"analyze":true},"newTransaction":{"readOnly":{"readTime":"2025-10-03T11:20:18.083Z"}}}
+[debug] [2025-10-03T11:20:18.385Z] <<< [apiv2][status] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery 200
+[debug] [2025-10-03T11:20:18.385Z] <<< [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [{"transaction":"Ed8aMdb5WsGJIlkAEBEVEuI1/4jJ0GehLaWnRLvJGmHOxhq/09J3uZviwvtucKcAm2ZZSlgCRfSdKM/UJhkCgEiCWDEtFzhL2HM7ExY1UHw+f+xkSTemgZX/hgHwDSp0jzS3Tg=="},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/users/08JLKael0yckQl7yN9JkPMFTHsF3","fields":{"name":{"stringValue":"Eman Aslam"},"role":{"stringValue":"student"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-08-01T13:03:26.356516Z","updateTime":"2025-09-20T07:07:53.956038Z"},"readTime":"2025-10-03T11:20:18.083Z","explainMetrics":{"planSummary":{"indexesUsed":[{"properties":"(__name__ ASC)","query_scope":"Collection"}]},"executionStats":{"resultsReturned":"1","executionDuration":"0.017555s","readOperations":"1","debugStats":{"billing_details":{"index_entries_billable":"0","documents_billable":"1","min_query_cost":"0","small_ops":"0"},"documents_scanned":"1","index_entries_scanned":"2"}}}}]
+[debug] [2025-10-03T11:20:23.788Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:20:23.788Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:20:23.788Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:23.789Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:23.789Z] >>> [apiv2][query] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [none]
+[debug] [2025-10-03T11:20:23.789Z] >>> [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery {"structuredQuery":{"from":[{"collectionId":"users","allDescendants":false}],"where":{"compositeFilter":{"op":"AND","filters":[{"fieldFilter":{"field":{"fieldPath":"name"},"op":"EQUAL","value":{"stringValue":"rabia wawar"}}}]}},"limit":10},"explainOptions":{"analyze":true},"newTransaction":{"readOnly":{"readTime":"2025-10-03T11:20:23.788Z"}}}
+[debug] [2025-10-03T11:20:25.454Z] <<< [apiv2][status] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery 200
+[debug] [2025-10-03T11:20:25.454Z] <<< [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [{"transaction":"EUnzwVM/CpMTIlkAEBEVEuNpss0SHXsRGUQM+QCJB5aEh4G9ae9QO/9y2qGPvXpmCWyPKbdDd705vGZzcxnPAtlLTGKnJsI+Oq6pwIHARb1olHHmpi0zdo04dP5jWjei9iLlLw=="},{"readTime":"2025-10-03T11:20:23.788Z","explainMetrics":{"planSummary":{"indexesUsed":[{"query_scope":"Collection","properties":"(name ASC, __name__ ASC)"}]},"executionStats":{"executionDuration":"0.060450s","readOperations":"1","debugStats":{"index_entries_scanned":"0","billing_details":{"index_entries_billable":"0","documents_billable":"0","min_query_cost":"1","small_ops":"0"},"documents_scanned":"0"}}}}]
+[debug] [2025-10-03T11:20:29.567Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:20:29.567Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:20:29.568Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:29.568Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:29.568Z] >>> [apiv2][query] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [none]
+[debug] [2025-10-03T11:20:29.568Z] >>> [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery {"structuredQuery":{"from":[{"collectionId":"users","allDescendants":false}],"where":{"compositeFilter":{"op":"AND","filters":[]}},"limit":10},"explainOptions":{"analyze":true},"newTransaction":{"readOnly":{"readTime":"2025-10-03T11:20:29.567Z"}}}
+[debug] [2025-10-03T11:20:29.866Z] <<< [apiv2][status] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery 200
+[debug] [2025-10-03T11:20:29.866Z] <<< [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [{"transaction":"EfLGjADuhzyqIlkAEBEVEk9OR0hQ7CHRgieBCg057xeyDC0NIFSVXDCg3ujmCL6lkkb/TGvQufZhh31tt/NmfSL6PXk4VRdJQdli2mBMmU+RZ58Y5FDasQ8CprYDTx140y22pA=="},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/users/08JLKael0yckQl7yN9JkPMFTHsF3","fields":{"name":{"stringValue":"Eman Aslam"},"role":{"stringValue":"student"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-08-01T13:03:26.356516Z","updateTime":"2025-09-20T07:07:53.956038Z"},"readTime":"2025-10-03T11:20:29.567Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/users/0D7VfRyOJcVMeFsSI6cJ9s8oofp1","fields":{"name":{"stringValue":"Salma  Saleem"},"role":{"stringValue":"student"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-07-29T13:38:21.811418Z","updateTime":"2025-09-20T07:07:53.956038Z"},"readTime":"2025-10-03T11:20:29.567Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/users/0ZMgPNT2FqXPLR47UJk3VqPySc22","fields":{"name":{"stringValue":"Syed Hassan Raahim"},"role":{"stringValue":"student"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-07-29T13:39:16.125457Z","updateTime":"2025-09-20T07:07:53.956038Z"},"readTime":"2025-10-03T11:20:29.567Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/users/0wMPblktZia8cmFS4DXxy5wC0Xr1","fields":{"name":{"stringValue":"Sardar Muhammad Ali"},"role":{"stringValue":"student"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-07-30T17:07:07.076613Z","updateTime":"2025-09-20T07:07:53.956038Z"},"readTime":"2025-10-03T11:20:29.567Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/users/0yvzugWgxrZWuGeaWfRvNw9NSO32","fields":{"name":{"stringValue":"Ahsan Ahmad"},"role":{"stringValue":"teacher"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-09-04T02:19:56.724961Z","updateTime":"2025-09-20T07:07:53.956038Z"},"readTime":"2025-10-03T11:20:29.567Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/users/1VXourEbtYT7SSPGVQrAhptjWDk1","fields":{"name":{"stringValue":"Muhammad Afrasyab Anwar"},"role":{"stringValue":"student"},"courseId":{"stringValue":"AI-101"}},"createTime":"2025-07-29T13:38:36.319055Z","updateTime":"2025-09-27T09:18:45.418343Z"},"readTime":"2025-10-03T11:20:29.567Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/users/1tYaJa20a3TpxsyWGNyXsGuaTd43","fields":{"name":{"stringValue":"Daniyal Ishaq"},"role":{"stringValue":"teacher"},"courseId":{"stringValue":"AI-101"}},"createTime":"2025-09-20T08:29:04.976264Z","updateTime":"2025-09-20T08:29:21.488548Z"},"readTime":"2025-10-03T11:20:29.567Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/users/29KINR9f1RUFPsl8f1hOUsFV66O2","fields":{"name":{"stringValue":"Abdul Hadi"},"role":{"stringValue":"student"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-07-29T13:39:01.700973Z","updateTime":"2025-09-20T07:07:53.956038Z"},"readTime":"2025-10-03T11:20:29.567Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/users/2AYLJV1rFbhbtDNBBheiyOHXJRs2","fields":{"name":{"stringValue":"Muhammad Ahmed Iqbal Abbasi"},"role":{"stringValue":"student"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-07-29T13:39:07.779145Z","updateTime":"2025-09-20T07:07:53.956038Z"},"readTime":"2025-10-03T11:20:29.567Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/users/2l4spyL02BQdtlHlp1RSJmiKxTr1","fields":{"name":{"stringValue":"Fatima Qadeer"},"role":{"stringValue":"student"},"courseId":{"stringValue":"AI-101"}},"createTime":"2025-07-29T13:38:20.610677Z","updateTime":"2025-09-27T09:19:19.510707Z"},"readTime":"2025-10-03T11:20:29.567Z","explainMetrics":{"planSummary":{"indexesUsed":[{"properties":"(__name__ ASC)","query_scope":"Collection"}]},"executionStats":{"resultsReturned":"10","executionDuration":"0.015240s","readOperations":"10","debugStats":{"index_entries_scanned":"11","documents_scanned":"10","billing_details":{"index_entries_billable":"0","documents_billable":"10","min_query_cost":"0","small_ops":"0"}}}}}]
+[debug] [2025-10-03T11:20:34.308Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:20:34.308Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:20:34.309Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:34.309Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:34.309Z] >>> [apiv2][query] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [none]
+[debug] [2025-10-03T11:20:34.309Z] >>> [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery {"structuredQuery":{"from":[{"collectionId":"users","allDescendants":false}],"where":{"compositeFilter":{"op":"AND","filters":[{"fieldFilter":{"field":{"fieldPath":"email"},"op":"EQUAL","value":{"stringValue":"rabia"}}}]}},"limit":10},"explainOptions":{"analyze":true},"newTransaction":{"readOnly":{"readTime":"2025-10-03T11:20:34.309Z"}}}
+[debug] [2025-10-03T11:20:34.603Z] <<< [apiv2][status] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery 200
+[debug] [2025-10-03T11:20:34.603Z] <<< [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [{"transaction":"ER47N+aMddqyIlkAEBEVEqcacuOGE8uLnLzcr3tT7VkDSOAC+PsqRaWXHymD9UsF48nnWz7s2n0dVA3GnOY4NTdw2oIGCbCltRxzGfnLrFazyplhLPmKz3vH9JUtE53dbQk2xQ=="},{"readTime":"2025-10-03T11:20:34.309Z","explainMetrics":{"planSummary":{"indexesUsed":[{"properties":"(email ASC, __name__ ASC)","query_scope":"Collection"}]},"executionStats":{"executionDuration":"0.015960s","readOperations":"1","debugStats":{"billing_details":{"index_entries_billable":"0","documents_billable":"0","min_query_cost":"1","small_ops":"0"},"documents_scanned":"0","index_entries_scanned":"0"}}}}]
+[debug] [2025-10-03T11:20:48.099Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:20:48.099Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:20:48.099Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:48.099Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:48.099Z] >>> [apiv2][query] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [none]
+[debug] [2025-10-03T11:20:48.099Z] >>> [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery {"structuredQuery":{"from":[{"collectionId":"users","allDescendants":false}],"where":{"compositeFilter":{"op":"AND","filters":[{"fieldFilter":{"field":{"fieldPath":"name"},"op":"EQUAL","value":{"stringValue":"Rabia Waqar"}}}]}},"limit":10},"explainOptions":{"analyze":true},"newTransaction":{"readOnly":{"readTime":"2025-10-03T11:20:48.099Z"}}}
+[debug] [2025-10-03T11:20:49.607Z] <<< [apiv2][status] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery 200
+[debug] [2025-10-03T11:20:49.607Z] <<< [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [{"transaction":"ESudzjmt9Fk3IlkAEBEVEpgi9dubrBNixI6gGzV81fzm9Q1ByKGMzJq6ePHlmY0MMv/YclT/OUvbgHy541NzI7PDPNh4MjFkTDgCZooB8v4Zm274eO67KOF3CYlv5S7jNZ5bRw=="},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/users/33XNi7i2L3dobnKnt1rd6WNpCrk1","fields":{"name":{"stringValue":"Rabia Waqar"},"role":{"stringValue":"student"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-07-29T13:39:10.174189Z","updateTime":"2025-09-20T07:07:53.956038Z"},"readTime":"2025-10-03T11:20:48.099Z","explainMetrics":{"planSummary":{"indexesUsed":[{"properties":"(name ASC, __name__ ASC)","query_scope":"Collection"}]},"executionStats":{"resultsReturned":"1","executionDuration":"0.017733s","readOperations":"1","debugStats":{"billing_details":{"index_entries_billable":"0","documents_billable":"1","min_query_cost":"0","small_ops":"0"},"index_entries_scanned":"1","documents_scanned":"1"}}}}]
+[debug] [2025-10-03T11:20:54.269Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:20:54.269Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:20:54.269Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:54.269Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:20:54.269Z] >>> [apiv2][query] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [none]
+[debug] [2025-10-03T11:20:54.269Z] >>> [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery {"structuredQuery":{"from":[{"collectionId":"submissions","allDescendants":false}],"where":{"compositeFilter":{"op":"AND","filters":[{"fieldFilter":{"field":{"fieldPath":"userId"},"op":"EQUAL","value":{"stringValue":"33XNi7i2L3dobnKnt1rd6WNpCrk1"}}}]}},"limit":10},"explainOptions":{"analyze":true},"newTransaction":{"readOnly":{"readTime":"2025-10-03T11:20:54.269Z"}}}
+[debug] [2025-10-03T11:20:54.559Z] <<< [apiv2][status] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery 200
+[debug] [2025-10-03T11:20:54.559Z] <<< [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [{"transaction":"EW/A24CI44bWIlkAEBEVEmLxXhWrGMUKmzaN4xbUnY++75+6FAqtYMM50WcCGffEv1Ix/fWcKTA/ESS2QYKtEY7VMWCaXExW6WdexefTY231PQfGgJ/FY5+kGcL/7jMo9vjjKA=="},{"readTime":"2025-10-03T11:20:54.269Z","explainMetrics":{"planSummary":{"indexesUsed":[{"query_scope":"Collection","properties":"(userId ASC, __name__ ASC)"}]},"executionStats":{"executionDuration":"0.010927s","readOperations":"1","debugStats":{"billing_details":{"index_entries_billable":"0","documents_billable":"0","min_query_cost":"1","small_ops":"0"},"documents_scanned":"0","index_entries_scanned":"0"}}}}]
+[debug] [2025-10-03T11:21:02.172Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:21:02.172Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:21:02.172Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:21:02.172Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:21:02.172Z] >>> [apiv2][query] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [none]
+[debug] [2025-10-03T11:21:02.172Z] >>> [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery {"structuredQuery":{"from":[{"collectionId":"submissions","allDescendants":false}],"where":{"compositeFilter":{"op":"AND","filters":[]}},"limit":1},"explainOptions":{"analyze":true},"newTransaction":{"readOnly":{"readTime":"2025-10-03T11:21:02.172Z"}}}
+[debug] [2025-10-03T11:21:03.680Z] <<< [apiv2][status] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery 200
+[debug] [2025-10-03T11:21:03.681Z] <<< [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [{"transaction":"EauT6aaFCozmIlkAEBEVEq4c3aG+JSd7VyRxqy7RdXqrAcc6N631qger4D8W0ztCmCk1c2MjgceFYM75e5neHFfEq0ICrBOa4vEYUzenOxLnANeg1Cxj8D9X8PEuQ0rXCH1Vxw=="},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/submissions/1pmUJ9Au9YVJsrYp1TJd_08JLKael0yckQl7yN9JkPMFTHsF3","fields":{"studentId":{"stringValue":"08JLKael0yckQl7yN9JkPMFTHsF3"},"submissionTitle":{"stringValue":"My_PE_Course.png"},"submissionLink":{"stringValue":"file:///home/eman-aslam/Pictures/Screenshots/Screenshot%20from%202025-08-20%2017-11-48.png"},"assignmentId":{"stringValue":"1pmUJ9Au9YVJsrYp1TJd"},"id":{"stringValue":"1pmUJ9Au9YVJsrYp1TJd_08JLKael0yckQl7yN9JkPMFTHsF3"},"submittedAt":{"timestampValue":"2025-08-20T12:17:30.115Z"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-08-20T12:13:14.763587Z","updateTime":"2025-09-20T07:07:56.182797Z"},"readTime":"2025-10-03T11:21:02.172Z","explainMetrics":{"planSummary":{"indexesUsed":[{"properties":"(__name__ ASC)","query_scope":"Collection"}]},"executionStats":{"resultsReturned":"1","executionDuration":"0.013524s","readOperations":"1","debugStats":{"index_entries_scanned":"2","billing_details":{"index_entries_billable":"0","documents_billable":"1","min_query_cost":"0","small_ops":"0"},"documents_scanned":"1"}}}}]
+[debug] [2025-10-03T11:21:09.578Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T11:21:09.579Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T11:21:09.579Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:21:09.579Z] Checked if tokens are valid: true, expires at: 1759492860778
+[debug] [2025-10-03T11:21:09.579Z] >>> [apiv2][query] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [none]
+[debug] [2025-10-03T11:21:09.579Z] >>> [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery {"structuredQuery":{"from":[{"collectionId":"submissions","allDescendants":false}],"where":{"compositeFilter":{"op":"AND","filters":[{"fieldFilter":{"field":{"fieldPath":"studentId"},"op":"EQUAL","value":{"stringValue":"33XNi7i2L3dobnKnt1rd6WNpCrk1"}}}]}},"limit":10},"explainOptions":{"analyze":true},"newTransaction":{"readOnly":{"readTime":"2025-10-03T11:21:09.579Z"}}}
+[debug] [2025-10-03T11:21:11.091Z] <<< [apiv2][status] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery 200
+[debug] [2025-10-03T11:21:11.091Z] <<< [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [{"transaction":"EfQ7F05xYRTqIlkAEBEVEpC7Mb2dBUrLIshdbUxG2WqVFFwWK5F6l/Lv33p+h2iN4qMTDm5V3vxHizgd3fUf2d6QqWXLHT6A3HyLYLfWri/yJbLukGKh4WJ1xriL+a3hUYN9KA=="},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/submissions/1pmUJ9Au9YVJsrYp1TJd_33XNi7i2L3dobnKnt1rd6WNpCrk1","fields":{"studentId":{"stringValue":"33XNi7i2L3dobnKnt1rd6WNpCrk1"},"submissionTitle":{"stringValue":"Course Completion Certificate (ChatGPT Prompt Engineering for Developers)"},"submissionLink":{"stringValue":"https://learn.deeplearning.ai/accomplishments/5590d7a0-17b1-40a4-8bc0-800a07c51dd2?usp=sharing"},"submittedAt":{"timestampValue":"2025-08-18T14:18:21.011Z"},"assignmentId":{"stringValue":"1pmUJ9Au9YVJsrYp1TJd"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-08-18T14:18:21.048416Z","updateTime":"2025-09-20T07:07:56.182797Z"},"readTime":"2025-10-03T11:21:09.579Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/submissions/2nIaHnvcQuq7dQnb20Z7_33XNi7i2L3dobnKnt1rd6WNpCrk1","fields":{"studentId":{"stringValue":"33XNi7i2L3dobnKnt1rd6WNpCrk1"},"submissionTitle":{"stringValue":"CrewAI Classwork"},"submissionLink":{"stringValue":"https://github.com/rabiawaqar06/multi-agent-crewai.git"},"submittedAt":{"timestampValue":"2025-09-27T06:50:44.115Z"},"assignmentId":{"stringValue":"2nIaHnvcQuq7dQnb20Z7"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-09-27T06:50:44.155317Z","updateTime":"2025-09-27T06:50:44.155317Z"},"readTime":"2025-10-03T11:21:09.579Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/submissions/AtaV4Ew6W41dW3Yah1PH_33XNi7i2L3dobnKnt1rd6WNpCrk1","fields":{"studentId":{"stringValue":"33XNi7i2L3dobnKnt1rd6WNpCrk1"},"githubLink":{"stringValue":"https://github.com/rabiawaqar06/youtube-analysis-gemini.git"},"submittedAt":{"timestampValue":"2025-08-07T15:41:09.691Z"},"assignmentId":{"stringValue":"AtaV4Ew6W41dW3Yah1PH"},"projectTitle":{"stringValue":"Youtube Video Analyzer using Gemini API (Summary, Key Takeaways, Main Idea and Ask Question Sections)"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-08-07T15:41:09.731126Z","updateTime":"2025-09-20T07:07:56.182797Z"},"readTime":"2025-10-03T11:21:09.579Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/submissions/G0iiru3XIZ2uSZHmHNsH_33XNi7i2L3dobnKnt1rd6WNpCrk1","fields":{"studentId":{"stringValue":"33XNi7i2L3dobnKnt1rd6WNpCrk1"},"submissionTitle":{"stringValue":"Course Completion (Building Agentic RAG with Llamaindex)"},"submissionLink":{"stringValue":"https://learn.deeplearning.ai/accomplishments/30ccd850-4fe5-4b2b-94ed-3f2e742f579f?usp=sharing"},"submittedAt":{"timestampValue":"2025-09-14T13:15:27.758Z"},"assignmentId":{"stringValue":"G0iiru3XIZ2uSZHmHNsH"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-09-14T13:15:27.797813Z","updateTime":"2025-09-20T07:07:56.182797Z"},"readTime":"2025-10-03T11:21:09.579Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/submissions/QwBWiordX2dBk2l4pN7V_33XNi7i2L3dobnKnt1rd6WNpCrk1","fields":{"studentId":{"stringValue":"33XNi7i2L3dobnKnt1rd6WNpCrk1"},"submissionTitle":{"stringValue":"SQL DB Agent"},"submissionLink":{"stringValue":"https://github.com/rabiawaqar06/sqldb-agent.git"},"submittedAt":{"timestampValue":"2025-09-20T15:37:10.296Z"},"assignmentId":{"stringValue":"QwBWiordX2dBk2l4pN7V"}},"createTime":"2025-09-20T15:37:10.333362Z","updateTime":"2025-09-20T15:37:10.333362Z"},"readTime":"2025-10-03T11:21:09.579Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/submissions/Rl84afUVlJbCFqhCGg8w_33XNi7i2L3dobnKnt1rd6WNpCrk1","fields":{"studentId":{"stringValue":"33XNi7i2L3dobnKnt1rd6WNpCrk1"},"githubLink":{"stringValue":"https://github.com/rabiawaqar06/sentiment-analysis-assignment.git"},"submittedAt":{"timestampValue":"2025-07-31T15:09:13.013Z"},"assignmentId":{"stringValue":"Rl84afUVlJbCFqhCGg8w"},"projectTitle":{"stringValue":"Sentiment Analysis Assignment ( 2 projects included- Stock & Twitter Celebrity Sentiment Analysis! )"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-07-31T15:09:13.233660Z","updateTime":"2025-09-20T07:07:56.182797Z"},"readTime":"2025-10-03T11:21:09.579Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/submissions/RvYZZApLYttMqpLlWQKi_33XNi7i2L3dobnKnt1rd6WNpCrk1","fields":{"studentId":{"stringValue":"33XNi7i2L3dobnKnt1rd6WNpCrk1"},"githubLink":{"stringValue":"https://github.com/rabiawaqar06/firstrepo.git"},"submittedAt":{"timestampValue":"2025-07-31T14:23:18.827Z"},"assignmentId":{"stringValue":"RvYZZApLYttMqpLlWQKi"},"projectTitle":{"stringValue":"Tic-Tac-Toe Game (didn't attempt the intro one)"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-07-31T14:23:18.868459Z","updateTime":"2025-09-20T07:07:56.182797Z"},"readTime":"2025-10-03T11:21:09.579Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/submissions/ZqozTOJIZu5hBv9McQCS_33XNi7i2L3dobnKnt1rd6WNpCrk1","fields":{"studentId":{"stringValue":"33XNi7i2L3dobnKnt1rd6WNpCrk1"},"submissionTitle":{"stringValue":"MultiTool Agent"},"submissionLink":{"stringValue":"https://github.com/rabiawaqar06/multi-tool-agent.git"},"submittedAt":{"timestampValue":"2025-09-27T06:53:34.019Z"},"assignmentId":{"stringValue":"ZqozTOJIZu5hBv9McQCS"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-09-27T06:53:34.049255Z","updateTime":"2025-09-27T06:53:34.049255Z"},"readTime":"2025-10-03T11:21:09.579Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/submissions/bHdOEmgaxdyYRhsVrNYm_33XNi7i2L3dobnKnt1rd6WNpCrk1","fields":{"studentId":{"stringValue":"33XNi7i2L3dobnKnt1rd6WNpCrk1"},"submissionTitle":{"stringValue":"Smart Invoice System"},"submissionLink":{"stringValue":"https://github.com/rabiawaqar06/n8n.git"},"submittedAt":{"timestampValue":"2025-08-24T18:39:19.528Z"},"assignmentId":{"stringValue":"bHdOEmgaxdyYRhsVrNYm"},"feedback":{"stringValue":"**Areas for Improvement:** \n\nThe JSON is quite lengthy and could benefit from better modularization.  Breaking down the workflow into smaller, reusable sub-workflows would improve readability and maintainability.  For example, the email generation and sending logic could be separated into its own sub-workflow, making it easier to test and update independently.  There's a lack of error handling; the workflow doesn't appear to account for potential API errors (e.g., network issues, rate limits, invalid API keys).  Adding error handling nodes and logging mechanisms would improve robustness.\nThe \"(Optional) Auto-Resolve\" feature mentioned in the README isn't implemented in the provided JSON. While this is marked as optional, its inclusion would significantly improve the completeness of the solution.  Also,  the integration with other systems like Stripe or QuickBooks is only mentioned but not implemented. The Google Sheet example seems somewhat simplistic; testing with a more comprehensive and realistic dataset would be beneficial.\nWhile the README is excellent, more inline comments within the `workflow.json` itself would enhance readability and make it easier for others to understand the workflow logic without needing to refer to the README constantly.  More detailed descriptions of parameters within each node (beyond what's visually apparent) are needed.\nThe lack of error handling and modularization hampers the overall quality and adherence to best practices.   The workflow should be designed to be more robust and handle unexpected situations gracefully.  Proper version control would also be beneficial.\nWhile the AI integration is impressive, further enhancing the AI’s capabilities to understand more nuanced email contexts and adapt the emails accordingly would significantly improve the system. More advanced features like Slack notifications or CRM integrations (as mentioned in the README but not implemented) would demonstrate additional innovation."},"marks":{"integerValue":"7"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-08-24T18:39:19.560714Z","updateTime":"2025-09-20T07:07:56.182797Z"},"readTime":"2025-10-03T11:21:09.579Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/submissions/ceDhdM5UlfVeTRvK06xn_33XNi7i2L3dobnKnt1rd6WNpCrk1","fields":{"studentId":{"stringValue":"33XNi7i2L3dobnKnt1rd6WNpCrk1"},"submissionTitle":{"stringValue":"Competitive Analysis Tool "},"submissionLink":{"stringValue":"https://github.com/rabiawaqar06/langchain-competitor-analysis.git"},"submittedAt":{"timestampValue":"2025-09-01T11:43:03.931Z"},"assignmentId":{"stringValue":"ceDhdM5UlfVeTRvK06xn"},"feedback":{"stringValue":"This project demonstrates potential but needs significant improvements in code quality and robustness before it can be considered production-ready. The student has a good grasp of the core concepts but needs to focus on best practices and improving the reliability and accuracy of the competitive analysis."},"marks":{"integerValue":"7"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-09-01T11:43:03.982233Z","updateTime":"2025-09-20T07:07:56.182797Z"},"readTime":"2025-10-03T11:21:09.579Z","explainMetrics":{"planSummary":{"indexesUsed":[{"properties":"(studentId ASC, __name__ ASC)","query_scope":"Collection"}]},"executionStats":{"resultsReturned":"10","executionDuration":"0.015631s","readOperations":"10","debugStats":{"billing_details":{"index_entries_billable":"0","documents_billable":"10","min_query_cost":"0","small_ops":"0"},"index_entries_scanned":"11","documents_scanned":"10"}}}}]
+[debug] [2025-10-03T12:21:45.258Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T12:21:45.259Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T12:21:50.317Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T12:21:50.317Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[info] ✔  Wrote configuration info to firebase.json 
+[info] ✔  Wrote project information to .firebaserc 
+[debug] [2025-10-03T12:22:00.232Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T12:22:00.232Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T12:22:00.232Z] Checked if tokens are valid: false, expires at: 1759492860778
+[debug] [2025-10-03T12:22:00.232Z] Checked if tokens are valid: false, expires at: 1759492860778
+[debug] [2025-10-03T12:22:00.232Z] > refreshing access token with scopes: []
+[debug] [2025-10-03T12:22:00.233Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-03T12:22:00.233Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-03T12:22:00.597Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-03T12:22:00.597Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-03T12:22:00.612Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/classroom-connect-aa6bx [none]
+[debug] [2025-10-03T12:22:02.049Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/classroom-connect-aa6bx 200
+[debug] [2025-10-03T12:22:02.049Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/classroom-connect-aa6bx {"projectNumber":"822230741774","projectId":"classroom-connect-aa6bx","lifecycleState":"ACTIVE","name":"Classroom Connect","labels":{"monospace-workspace-id":"studio-9392397126","firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-07-25T17:40:31.293687Z"}
+[debug] [2025-10-03T12:22:06.366Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T12:22:06.367Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T12:22:06.367Z] Checked if tokens are valid: true, expires at: 1759497719597
+[debug] [2025-10-03T12:22:06.367Z] Checked if tokens are valid: true, expires at: 1759497719597
+[debug] [2025-10-03T12:22:06.367Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/classroom-connect-aa6bx/releases pageSize=10&pageToken=
+[debug] [2025-10-03T12:22:07.084Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/classroom-connect-aa6bx/releases 200
+[debug] [2025-10-03T12:22:07.084Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/classroom-connect-aa6bx/releases {"releases":[{"name":"projects/classroom-connect-aa6bx/releases/cloud.firestore","rulesetName":"projects/classroom-connect-aa6bx/rulesets/858caf72-545b-46f3-ab77-11004de870d5","createTime":"2025-07-25T17:45:10.288539Z","updateTime":"2025-09-20T07:06:37.509203Z"}]}
+[debug] [2025-10-03T12:22:40.826Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T12:22:40.826Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[info] ✔  Wrote configuration info to firebase.json 
+[info] ✔  Wrote project information to .firebaserc 
+[debug] [2025-10-03T12:28:11.354Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-03T12:28:11.354Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-03T12:28:11.354Z] Checked if tokens are valid: true, expires at: 1759497719597
+[debug] [2025-10-03T12:28:11.354Z] Checked if tokens are valid: true, expires at: 1759497719597
+[debug] [2025-10-03T12:28:11.354Z] >>> [apiv2][query] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [none]
+[debug] [2025-10-03T12:28:11.354Z] >>> [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery {"structuredQuery":{"from":[{"collectionId":"assignments","allDescendants":false}],"where":{"compositeFilter":{"op":"AND","filters":[]}},"limit":10},"explainOptions":{"analyze":true},"newTransaction":{"readOnly":{"readTime":"2025-10-03T12:28:11.354Z"}}}
+[debug] [2025-10-03T12:28:12.886Z] <<< [apiv2][status] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery 200
+[debug] [2025-10-03T12:28:12.886Z] <<< [apiv2][body] POST https://firestore.googleapis.com/v1/projects/classroom-connect-aa6bx/databases/(default)/documents:runQuery [{"transaction":"EaWf2wcNKSiuIlkAEBEVEpAaou3rj02nJFF5seeb14QNaWH+jKLGSyDVFeM3vGhQGQteccQvApz5gE7qsiSD6kcP/EQz1cBPCvPW+2KDsPOBsOMdqnqElCid1AxLwThJ/UuRKA=="},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/assignments/1pmUJ9Au9YVJsrYp1TJd","fields":{"title":{"stringValue":"Prompt Engineering Course Certificate"},"instructions":{"stringValue":"You have to submit the image url when you get your completion certificate. Submit just 1 image url.\n\nFree courses for prompt engineering. It will be beneficial for all of your projects. Please take atleast one of these and get the certification. \n\nhttps://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/\n\nhttps://www.deeplearning.ai/short-courses/prompt-engineering-with-llama-2/"},"deadline":{"timestampValue":"2025-08-17T18:59:59.999Z"},"assignmentType":{"stringValue":"image"},"teacherId":{"stringValue":"IbmkIfpWiydn04c2FCWS0or17ZN2"},"submissionsEnabled":{"booleanValue":false},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-08-12T15:08:36.299697Z","updateTime":"2025-09-20T07:07:54.414336Z"},"readTime":"2025-10-03T12:28:11.354Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/assignments/2nIaHnvcQuq7dQnb20Z7","fields":{"instructions":{"stringValue":"Make a simple agent crew in Crew.AI which we made in class and submit the repo.\nUse Google Gemini API as your llm."},"deadline":{"timestampValue":"2025-09-26T18:59:59.999Z"},"title":{"stringValue":"CrewAI Class Assignment"},"assignmentType":{"stringValue":"github"},"teacherId":{"stringValue":"IbmkIfpWiydn04c2FCWS0or17ZN2"},"courseId":{"stringValue":"AI-301"},"submissionsEnabled":{"booleanValue":true}},"createTime":"2025-09-26T11:09:11.907645Z","updateTime":"2025-09-27T05:13:29.219526Z"},"readTime":"2025-10-03T12:28:11.354Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/assignments/5J3kTDOlD4WUpPYHu1Gy","fields":{"title":{"stringValue":"ReactJS"},"instructions":{"stringValue":"ReactJS and NodeJS"},"deadline":{"timestampValue":"2025-09-20T18:59:59.999Z"},"submissionsEnabled":{"booleanValue":false},"assignmentType":{"stringValue":"github"},"teacherId":{"stringValue":"1tYaJa20a3TpxsyWGNyXsGuaTd43"},"courseId":{"stringValue":"AI-101"}},"createTime":"2025-09-20T08:31:07.920987Z","updateTime":"2025-09-20T08:31:07.920987Z"},"readTime":"2025-10-03T12:28:11.354Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/assignments/AtaV4Ew6W41dW3Yah1PH","fields":{"title":{"stringValue":"LLM APIs - Home Assignment"},"instructions":{"stringValue":"Submit your LLM APIs Home Assignments Github links you were assigned on Sunday, 03 August, 2025.\n1 - Make sure to make only 1 repository with forntend & backend folder if you have multiple.\n2- Make sure to write a detailed Readme file including screenshots of your app as well."},"teacherId":{"stringValue":"IbmkIfpWiydn04c2FCWS0or17ZN2"},"deadline":{"timestampValue":"2025-08-08T18:59:59.999Z"},"assignmentType":{"stringValue":"github"},"courseId":{"stringValue":"AI-301"},"submissionsEnabled":{"booleanValue":false}},"createTime":"2025-08-04T17:06:27.494226Z","updateTime":"2025-09-26T11:23:01.160818Z"},"readTime":"2025-10-03T12:28:11.354Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/assignments/G0iiru3XIZ2uSZHmHNsH","fields":{"title":{"stringValue":"Agentic RAG"},"instructions":{"stringValue":"Complete the course from below link.\nSubmit your completion Certificate or Screenshot.\n\nhttps://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/"},"deadline":{"timestampValue":"2025-09-14T18:59:59.999Z"},"assignmentType":{"stringValue":"image"},"teacherId":{"stringValue":"IbmkIfpWiydn04c2FCWS0or17ZN2"},"courseId":{"stringValue":"AI-301"},"submissionsEnabled":{"booleanValue":true}},"createTime":"2025-09-12T11:47:20.086578Z","updateTime":"2025-09-27T07:16:32.902212Z"},"readTime":"2025-10-03T12:28:11.354Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/assignments/IWtM1YBdzRkdsMrgvFbD","fields":{"title":{"stringValue":"MCP Configuration with Firebase"},"instructions":{"stringValue":"You have to do MCP configuration with Gemini CLI.\nCreate a screen-recording of the process where you are chatting with your firebase project from gemini cli.\nAt-least do 5 Queries to firebase database.\nUpload the video to google drive, make it public and submit the link."},"deadline":{"timestampValue":"2025-10-03T18:59:59.999Z"},"submissionsEnabled":{"booleanValue":false},"assignmentType":{"stringValue":"image"},"teacherId":{"stringValue":"IbmkIfpWiydn04c2FCWS0or17ZN2"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-10-03T11:25:04.824723Z","updateTime":"2025-10-03T11:25:04.824723Z"},"readTime":"2025-10-03T12:28:11.354Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/assignments/QwBWiordX2dBk2l4pN7V","fields":{"title":{"stringValue":"SQLDBAgent Using Gemini"},"instructions":{"stringValue":"Implement the sql agent using api, you must have a cli or gui level interface to test your application."},"deadline":{"timestampValue":"2025-09-19T18:59:59.999Z"},"assignmentType":{"stringValue":"github"},"teacherId":{"stringValue":"IbmkIfpWiydn04c2FCWS0or17ZN2"},"submissionsEnabled":{"booleanValue":true},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-09-19T10:59:46.387324Z","updateTime":"2025-09-20T07:07:54.414336Z"},"readTime":"2025-10-03T12:28:11.354Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/assignments/Rl84afUVlJbCFqhCGg8w","fields":{"teacherId":{"stringValue":"IbmkIfpWiydn04c2FCWS0or17ZN2"},"instructions":{"stringValue":"Submit your Semantic Analysis Home Assignments Github links you were assigned on Sunday, 27 July, 2025.\n"},"title":{"stringValue":"Semantic Analysis - Home Assignment"},"deadline":{"timestampValue":"2025-08-03T18:59:59.999Z"},"assignmentType":{"stringValue":"github"},"submissionsEnabled":{"booleanValue":false},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-07-27T07:57:10.975955Z","updateTime":"2025-09-20T07:07:54.414336Z"},"readTime":"2025-10-03T12:28:11.354Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/assignments/RvYZZApLYttMqpLlWQKi","fields":{"teacherId":{"stringValue":"IbmkIfpWiydn04c2FCWS0or17ZN2"},"instructions":{"stringValue":"Introduction repo, we did as a practice in class.\n(Optional)"},"title":{"stringValue":"Introduction - (Optional)"},"deadline":{"timestampValue":"2025-08-03T18:59:59.999Z"},"courseId":{"stringValue":"AI-301"}},"createTime":"2025-07-25T18:00:37.084782Z","updateTime":"2025-09-20T07:07:54.414336Z"},"readTime":"2025-10-03T12:28:11.354Z"},{"document":{"name":"projects/classroom-connect-aa6bx/databases/(default)/documents/assignments/ZqozTOJIZu5hBv9McQCS","fields":{"title":{"stringValue":"MultiToolsApi Agent"},"instructions":{"stringValue":"Make an Agent which consume multiple tools and apis to perform an action.\nThe Agents should be based on real-world usecase.\nMake sure its presentable on frontend application level.\nIt should be deployed."},"deadline":{"timestampValue":"2025-09-25T18:59:59.999Z"},"assignmentType":{"stringValue":"github"},"teacherId":{"stringValue":"IbmkIfpWiydn04c2FCWS0or17ZN2"},"courseId":{"stringValue":"AI-301"},"submissionsEnabled":{"booleanValue":true}},"createTime":"2025-09-20T06:35:20.466932Z","updateTime":"2025-09-26T11:53:43.745825Z"},"readTime":"2025-10-03T12:28:11.354Z","explainMetrics":{"planSummary":{"indexesUsed":[{"properties":"(__name__ ASC)","query_scope":"Collection"}]},"executionStats":{"resultsReturned":"10","executionDuration":"0.017520s","readOperations":"10","debugStats":{"billing_details":{"index_entries_billable":"0","documents_billable":"10","min_query_cost":"0","small_ops":"0"},"documents_scanned":"10","index_entries_scanned":"11"}}}}]
+[debug] [2025-10-04T06:17:03.997Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:03.998Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:03.998Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:03.999Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:03.999Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.012Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.013Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.013Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.013Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.013Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.014Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.014Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.014Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.014Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.014Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.014Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.014Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.014Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.014Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.014Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.015Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.015Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.015Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.015Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.015Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.015Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.015Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.015Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.015Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.015Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.016Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.016Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.016Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.016Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.016Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.016Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.016Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.016Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.017Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.017Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.017Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.017Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.017Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.017Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.017Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.018Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.018Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.018Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.018Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.018Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.018Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.018Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.018Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.018Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.018Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.024Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.024Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.024Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.024Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.024Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.024Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.024Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.024Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.024Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.024Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.024Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.024Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.024Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.024Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.024Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.024Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.024Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.024Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.025Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.025Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.025Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.025Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.025Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.025Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.025Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.025Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.025Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.025Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.025Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.025Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.025Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.025Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.025Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.025Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.025Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.025Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.025Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.025Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.025Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.025Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.026Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.026Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.026Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.026Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.026Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.026Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.026Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.026Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.026Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.026Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.026Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.026Z] Checked if tokens are valid: false, expires at: 1759497719597
+[debug] [2025-10-04T06:17:04.026Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T06:17:04.026Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T06:17:04.026Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.415Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.415Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.433Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firestore.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.433Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firestore.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.435Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.435Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.447Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.447Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.451Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.451Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.461Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.461Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.464Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.464Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.475Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ [none]
+[debug] [2025-10-04T06:17:04.476Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.477Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.477Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.488Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/fcm.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.488Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/fcm.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.490Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.490Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.501Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.501Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.502Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.502Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.513Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.513Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.514Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.515Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.525Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.525Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.527Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.527Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.539Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.539Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.541Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.541Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.553Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/fcm.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.553Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/fcm.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.555Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.555Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.566Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.566Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.567Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.567Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.578Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.578Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.579Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.579Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.590Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ [none]
+[debug] [2025-10-04T06:17:04.590Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.591Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.591Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.602Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.602Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.603Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.603Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.613Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.613Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.614Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.614Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.624Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com [none]
+[debug] [2025-10-04T06:17:04.624Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.627Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.627Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.638Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.638Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.640Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.640Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.653Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/storage.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.653Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/storage.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.655Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.655Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.668Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.669Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.670Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.670Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.683Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/storage.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.683Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/storage.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.684Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.684Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.695Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com [none]
+[debug] [2025-10-04T06:17:04.695Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:04.698Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-04T06:17:04.698Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T06:17:04.709Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firestore.googleapis.com [none]
+[debug] [2025-10-04T06:17:04.709Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firestore.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-04T06:17:06.157Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com 403
+[debug] [2025-10-04T06:17:06.157Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com [omitted]
+[debug] [2025-10-04T06:17:06.215Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2025-10-04T06:17:06.215Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:06.228Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/fcm.googleapis.com 200
+[debug] [2025-10-04T06:17:06.228Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/fcm.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:06.235Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-10-04T06:17:06.235Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:06.235Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com 200
+[debug] [2025-10-04T06:17:06.236Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:06.236Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com 200
+[debug] [2025-10-04T06:17:06.236Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:06.237Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-10-04T06:17:06.237Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:06.238Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/identitytoolkit.googleapis.com 200
+[debug] [2025-10-04T06:17:06.238Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:06.245Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firestore.googleapis.com 200
+[debug] [2025-10-04T06:17:06.245Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firestore.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:06.271Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/storage.googleapis.com 200
+[debug] [2025-10-04T06:17:06.271Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/storage.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:06.487Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ 200
+[debug] [2025-10-04T06:17:06.488Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ [omitted]
+[debug] [2025-10-04T06:17:07.029Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-04T06:17:07.029Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-04T06:17:07.032Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-04T06:17:07.032Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-04T06:17:07.350Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com 403
+[debug] [2025-10-04T06:17:07.350Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com [omitted]
+[debug] [2025-10-04T06:17:07.492Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2025-10-04T06:17:07.492Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:07.502Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/fcm.googleapis.com 200
+[debug] [2025-10-04T06:17:07.502Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/fcm.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:07.512Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/identitytoolkit.googleapis.com 200
+[debug] [2025-10-04T06:17:07.512Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:07.520Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com 200
+[debug] [2025-10-04T06:17:07.520Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:07.521Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-10-04T06:17:07.521Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:07.539Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-10-04T06:17:07.539Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:07.539Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com 200
+[debug] [2025-10-04T06:17:07.540Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:07.563Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firestore.googleapis.com 200
+[debug] [2025-10-04T06:17:07.563Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firestore.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:07.591Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/storage.googleapis.com 200
+[debug] [2025-10-04T06:17:07.591Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/storage.googleapis.com [omitted]
+[debug] [2025-10-04T06:17:08.062Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ 200
+[debug] [2025-10-04T06:17:08.063Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ [omitted]
+[debug] [2025-10-04T11:24:44.268Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-04T11:24:44.270Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-04T11:24:44.270Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T11:24:44.270Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T11:24:44.271Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T11:24:44.284Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-04T11:24:44.284Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-04T11:24:44.284Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T11:24:44.285Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T11:24:44.285Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T11:24:44.285Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-04T11:24:44.285Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-04T11:24:44.285Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T11:24:44.286Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T11:24:44.286Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T11:24:44.286Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-04T11:24:44.286Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-04T11:24:44.286Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T11:24:44.286Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T11:24:44.286Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T11:24:44.286Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-04T11:24:44.286Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-04T11:24:44.286Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T11:24:44.286Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T11:24:44.286Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-04T11:24:44.287Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-04T11:24:44.287Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-04T11:24:44.287Z] > refreshing access token with scopes: []
+[debug] [2025-10-04T11:24:44.287Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-04T11:24:44.287Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:25:52.923Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:25:52.924Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:25:52.924Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:25:52.925Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:25:52.925Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:25:52.939Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:25:52.939Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:25:52.939Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:25:52.939Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:25:52.939Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:25:52.940Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:25:52.940Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:25:52.940Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:25:52.940Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:25:52.940Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:25:52.940Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:25:52.940Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:25:52.940Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:25:52.940Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:25:52.940Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:25:52.940Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:25:52.940Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:25:52.940Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:25:52.941Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:25:52.941Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:25:52.941Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:25:52.941Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:25:52.941Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:25:52.941Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:25:52.941Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.379Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.380Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.380Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:27:38.381Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:27:38.381Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.394Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.394Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.394Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:27:38.395Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:27:38.395Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.395Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.395Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.395Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:27:38.395Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:27:38.395Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.396Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.396Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.396Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:27:38.396Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:27:38.396Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.396Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.396Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.396Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:27:38.396Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:27:38.396Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.397Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.397Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.397Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:27:38.397Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:27:38.397Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.404Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.404Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.404Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:27:38.404Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:27:38.404Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.404Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.404Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.404Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:27:38.405Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:27:38.405Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.405Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.405Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.405Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:27:38.405Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:27:38.405Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.406Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.406Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.406Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:27:38.406Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:27:38.406Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.406Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.406Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.406Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:27:38.406Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:27:38.406Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.407Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.407Z] Checked if tokens are valid: false, expires at: 1759562223698
+[debug] [2025-10-05T05:27:38.407Z] > refreshing access token with scopes: []
+[debug] [2025-10-05T05:27:38.407Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-05T05:27:38.407Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.765Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-05T05:27:38.765Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.780Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com [none]
+[debug] [2025-10-05T05:27:38.781Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:27:38.782Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-05T05:27:38.782Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.790Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ [none]
+[debug] [2025-10-05T05:27:38.790Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:27:38.795Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-05T05:27:38.795Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.805Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-10-05T05:27:38.805Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:27:38.806Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-05T05:27:38.806Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.816Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-10-05T05:27:38.816Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:27:38.817Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-05T05:27:38.817Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.827Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com [none]
+[debug] [2025-10-05T05:27:38.827Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:27:38.828Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-05T05:27:38.828Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.837Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-10-05T05:27:38.837Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:27:38.838Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-05T05:27:38.838Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.848Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-10-05T05:27:38.848Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:27:38.849Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-05T05:27:38.849Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.860Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com [none]
+[debug] [2025-10-05T05:27:38.860Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:27:38.861Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-05T05:27:38.861Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.871Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-10-05T05:27:38.871Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:27:38.872Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-05T05:27:38.872Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.881Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com [none]
+[debug] [2025-10-05T05:27:38.881Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:27:38.882Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-05T05:27:38.882Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.891Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-10-05T05:27:38.891Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:27:38.892Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-05T05:27:38.892Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-05T05:27:38.902Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ [none]
+[debug] [2025-10-05T05:27:38.902Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:27:40.358Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com 403
+[debug] [2025-10-05T05:27:40.358Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com [omitted]
+[debug] [2025-10-05T05:27:40.465Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-10-05T05:27:40.465Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-10-05T05:27:40.467Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-10-05T05:27:40.467Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-10-05T05:27:40.467Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com 200
+[debug] [2025-10-05T05:27:40.467Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com [omitted]
+[debug] [2025-10-05T05:27:40.467Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-10-05T05:27:40.468Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-10-05T05:27:40.468Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com 200
+[debug] [2025-10-05T05:27:40.468Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com [omitted]
+[debug] [2025-10-05T05:27:40.472Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com 200
+[debug] [2025-10-05T05:27:40.472Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-10-05T05:27:40.727Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ 200
+[debug] [2025-10-05T05:27:40.727Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ [omitted]
+[debug] [2025-10-05T05:27:40.732Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ 200
+[debug] [2025-10-05T05:27:40.732Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ [omitted]
+[debug] [2025-10-05T05:27:41.411Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-05T05:27:41.412Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-05T05:27:41.414Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-05T05:27:41.414Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-05T05:27:41.545Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com 403
+[debug] [2025-10-05T05:27:41.545Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com [omitted]
+[debug] [2025-10-05T05:27:41.746Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-10-05T05:27:41.747Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-10-05T05:27:41.761Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com 200
+[debug] [2025-10-05T05:27:41.761Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-10-05T05:30:07.577Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.578Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.578Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.578Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.578Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.579Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.579Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.579Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.579Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.579Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.579Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.579Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.579Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ [none]
+[debug] [2025-10-05T05:30:07.579Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:30:07.592Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-10-05T05:30:07.593Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:30:07.593Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-10-05T05:30:07.593Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:30:07.593Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com [none]
+[debug] [2025-10-05T05:30:07.593Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:30:07.594Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-10-05T05:30:07.594Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:30:07.594Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com [none]
+[debug] [2025-10-05T05:30:07.594Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:30:07.599Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.599Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.599Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.599Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.600Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.600Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.600Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.600Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.600Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.600Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.600Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.600Z] Checked if tokens are valid: true, expires at: 1759645657892
+[debug] [2025-10-05T05:30:07.600Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ [none]
+[debug] [2025-10-05T05:30:07.600Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:30:07.600Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-10-05T05:30:07.600Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:30:07.600Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-10-05T05:30:07.600Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:30:07.601Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com [none]
+[debug] [2025-10-05T05:30:07.601Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:30:07.602Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-10-05T05:30:07.602Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:30:07.602Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com [none]
+[debug] [2025-10-05T05:30:07.602Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com x-goog-quota-user=projects/classroom-connect-aa6bx
+[debug] [2025-10-05T05:30:09.115Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com 403
+[debug] [2025-10-05T05:30:09.115Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com [omitted]
+[debug] [2025-10-05T05:30:09.116Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-10-05T05:30:09.116Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-10-05T05:30:09.121Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com 200
+[debug] [2025-10-05T05:30:09.121Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com [omitted]
+[debug] [2025-10-05T05:30:09.122Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-10-05T05:30:09.122Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-10-05T05:30:09.132Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com 200
+[debug] [2025-10-05T05:30:09.132Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-10-05T05:30:09.135Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com 200
+[debug] [2025-10-05T05:30:09.135Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasecrashlytics.googleapis.com [omitted]
+[debug] [2025-10-05T05:30:09.173Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-10-05T05:30:09.173Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-10-05T05:30:09.192Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-10-05T05:30:09.192Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-10-05T05:30:09.338Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ 200
+[debug] [2025-10-05T05:30:09.338Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ [omitted]
+[debug] [2025-10-05T05:30:09.374Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com 200
+[debug] [2025-10-05T05:30:09.374Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-10-05T05:30:09.375Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-05T05:30:09.375Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-05T05:30:09.377Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-05T05:30:09.377Z] > authorizing via signed-in user (tayyabdev99@gmail.com)
+[debug] [2025-10-05T05:30:09.390Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ 200
+[debug] [2025-10-05T05:30:09.390Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/ [omitted]
+[debug] [2025-10-05T05:30:09.398Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com 403
+[debug] [2025-10-05T05:30:09.398Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/classroom-connect-aa6bx/services/firebaseio.com [omitted]
