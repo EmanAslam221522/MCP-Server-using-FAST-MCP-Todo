@@ -1,0 +1,79 @@
+# Docker Compose version - defines the compose file format
+# Version 3.8 provides good compatibility and features
+version: '3.8'
+
+# Services section defines all containers that will be created
+services:
+
+  # Backend service - Express.js API server
+  backend:
+    # Build configuration for creating the Docker image
+    build:
+      # Path to the directory containing the Dockerfile
+      context: ./backend
+      # Name of the Dockerfile to use (could be custom like Dockerfile.dev)
+      dockerfile: Dockerfile
+
+    # Port mapping - maps host port to container port
+    # Format: "host_port:container_port"
+    # Access the backend at http://localhost:5001
+    ports:
+      - "5001:5001"
+
+    # Environment variables passed to the container
+    environment:
+      - NODE_ENV=production
+
+    # Connect this service to the custom network
+    # Allows containers to communicate using service names
+    networks:
+      - app-network
+
+    # Health check configuration to monitor container health
+    healthcheck:
+      # Command to check if the service is healthy
+      # wget tries to access the health endpoint
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:5001/health"]
+      # Time between health checks
+      interval: 30s
+      # Maximum time to wait for health check to complete
+      timeout: 10s
+      # Number of consecutive failures before marking unhealthy
+      retries: 3
+
+  # Frontend service - Next.js application
+  frontend:
+    # Build configuration
+    build:
+      # Path to frontend directory
+      context: ./frontend
+      # Dockerfile to use for building
+      dockerfile: Dockerfile
+
+    # Port mapping for frontend
+    # Access the frontend at http://localhost:3000
+    ports:
+      - "3000:3000"
+
+    # Service dependencies - frontend starts after backend
+    # Ensures backend is running before frontend starts
+    depends_on:
+      - backend
+
+    # Environment variables for the frontend
+    environment:
+      # API URL using backend service name for internal communication
+      # 'backend' resolves to the backend container's IP within the network
+      - NEXT_PUBLIC_API_URL=http://backend:5001
+
+    # Connect to the same network as backend
+    networks:
+      - app-network
+
+# Custom networks configuration
+networks:
+  # Define a custom network for container communication
+  app-network:
+    # Bridge driver creates an isolated network on the Docker host
+    # Containers on the same bridge network can communicate
+    driver: bridge
