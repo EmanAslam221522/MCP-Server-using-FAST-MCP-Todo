@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "todo-mcp-server": {
+      "command": "python",
+      "args": ["-m", "fastmcp", "run", "mcp_server.py:mcp", "--transport", "http", "--port", "8001"],
+      "cwd": "/Users/tayyab/Desktop/week_12",
+      "env": {
+        "PYTHONPATH": "/Users/tayyab/Desktop/week_12"
+      }
+    }
+  }
+}
+

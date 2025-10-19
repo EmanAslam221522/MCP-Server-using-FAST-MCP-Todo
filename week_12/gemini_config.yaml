@@ -1,0 +1,36 @@
+# Gemini CLI Configuration for Todo MCP Server
+# This file configures the Gemini CLI to use your Todo MCP server
+
+# MCP Servers Configuration
+mcpServers:
+  # Todo MCP Server
+  todo-server:
+    # Command to run the MCP server
+    command: python
+    args:
+      - /Users/tayyab/Desktop/week_12/mcp_server.py
+    # Environment variables (if needed)
+    env:
+      PYTHONPATH: /Users/tayyab/Desktop/week_12
+    # Working directory
+    cwd: /Users/tayyab/Desktop/week_12
+    # Description
+    description: "Todo management MCP server with full CRUD operations"
+
+# Alternative configuration using the virtual environment
+# Uncomment this section if you prefer to use the venv Python
+#  todo-server-venv:
+#    command: /Users/tayyab/Desktop/week_12/.venv/bin/python
+#    args:
+#      - /Users/tayyab/Desktop/week_12/mcp_server.py
+#    cwd: /Users/tayyab/Desktop/week_12
+#    description: "Todo MCP server (using venv)"
+
+# You can also use the fastmcp CLI directly
+#  todo-server-fastmcp:
+#    command: /Users/tayyab/Desktop/week_12/.venv/bin/fastmcp
+#    args:
+#      - run
+#      - mcp_server.py:mcp
+#    cwd: /Users/tayyab/Desktop/week_12
+#    description: "Todo MCP server (using fastmcp CLI)"
