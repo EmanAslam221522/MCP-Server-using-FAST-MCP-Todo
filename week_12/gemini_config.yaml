@@ -2,7 +2,10 @@
 # This file configures the Gemini CLI to use your Todo MCP server
 
 # API Configuration
-apiKey: AIzaSyDXETQ77vmAMD482E1pF60pw5lbahJLdmA
+# IMPORTANT: Set your API key via environment variable GEMINI_API_KEY
+# export GEMINI_API_KEY="your-api-key-here"
+# DO NOT commit your API key to git!
+apiKey: ${GEMINI_API_KEY}
 model: "gemini-2.0-flash"
 
 # MCP Servers Configuration
