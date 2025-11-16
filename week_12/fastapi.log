@@ -1,0 +1,28 @@
+INFO:     Started server process [95874]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54006 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43348 - "POST /todos HTTP/1.1" 201 Created
+INFO:     127.0.0.1:40018 - "GET /todos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40018 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40024 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /todos?limit=5&priority=high HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57148 - "GET /todos/stats/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40038 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34900 - "GET /todos/stats/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54390 - "GET /todos/stats HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:37714 - "GET /todos?limit=5&priority=high HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37728 - "GET /todos/stats/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38150 - "POST /todos HTTP/1.1" 201 Created
+INFO:     127.0.0.1:38152 - "GET /todos?priority=high&limit=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38166 - "GET /todos/stats/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38182 - "PATCH /todos/20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38194 - "DELETE /todos/20 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:58400 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42180 - "POST /todos HTTP/1.1" 201 Created
+INFO:     127.0.0.1:42186 - "GET /todos?priority=high&limit=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42202 - "GET /todos/stats/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42208 - "PATCH /todos/20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42214 - "DELETE /todos/20 HTTP/1.1" 204 No Content
